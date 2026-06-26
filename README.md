@@ -2,7 +2,7 @@
 
 Sito statico per [Poeta Lunare](https://apps.apple.com/), il taccuino quotidiano sulla Luna per iOS.
 
-Pensato per essere ospitato su GitHub Pages, servito su https://poetalunare.app.
+Servito su GitHub Pages.
 
 ## Struttura
 
@@ -17,35 +17,6 @@ Pensato per essere ospitato su GitHub Pages, servito su https://poetalunare.app.
 | `CNAME` | Dominio personalizzato per GitHub Pages (`poetalunare.app`) |
 | `robots.txt` | Istruzioni per i crawler |
 | `sitemap.xml` | Sitemap per i motori di ricerca |
-
-## Anteprima locale
-
-```bash
-cd Files2
-python3 -m http.server 8000
-```
-
-Poi apri http://localhost:8000
-
-## Deploy
-
-1. Push sul branch `main` del repo GitHub.
-2. Repo Settings → Pages → Source: `main` / `/ (root)`.
-3. Imposta il dominio personalizzato `poetalunare.app` e attiva **Enforce HTTPS**.
-
-## Configurazione DNS (dominio personalizzato)
-
-Dal tuo registrar (Cloudflare, Porkbun, ecc.) per `poetalunare.app`:
-
-| Tipo | Nome | Valore |
-|---|---|---|
-| A | `@` | `185.199.108.153` |
-| A | `@` | `185.199.109.153` |
-| A | `@` | `185.199.110.153` |
-| A | `@` | `185.199.111.153` |
-| CNAME | `www` | `<your-github-username>.github.io` |
-
-Attendi 5-15 minuti per la propagazione DNS, poi attiva HTTPS nelle impostazioni del repo.
 
 ## Palette e identità
 
