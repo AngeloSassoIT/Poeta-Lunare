@@ -1,6 +1,6 @@
 # Sito di Poeta Lunare (GitHub Pages)
 
-Sito statico dell'app **Poeta Lunare** — nessun build step, solo HTML/CSS.
+Sito statico dell'app **Poeta Lunare**
 
 ## Contenuto
 
